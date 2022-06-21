@@ -37,3 +37,8 @@
 * scheme://[userinfo@]host[:port][/path][?query][#fragment]
 * https://www.google.com:443/search?q=hello&hl=ko
 
+## 웹 브라우저 요청 흐름
+* 1. 웹 브라우저가 HTTP 메시지 생성
+* 2. SOCKET 라이브러리를 통해 전달
+* A. TCP/IP 연결(IP, PORT) 3 핸드 세이킹...
+* 3. TCP/IP 패킷 생성, HTTP 메시지 포함
