@@ -42,3 +42,6 @@
 * 2. SOCKET 라이브러리를 통해 전달
 * A. TCP/IP 연결(IP, PORT) 3 핸드 세이킹...
 * 3. TCP/IP 패킷 생성, HTTP 메시지 포함
+
+## 모든 것이 HTTP
+* HTTP1.1, HTTP2, HTTP3(UDP)
