@@ -28,3 +28,12 @@
 * 1. IP 주소 기억 어려움
 * 2. IP 변경될 경우 통신 어려움
 * 위 두가지 해결
+
+## URI
+* Uniform Resource Identifier
+* 리소스 구분
+* 1. URL (foo://example.com:8042/over/there?name=ferret#nose)  
+* 2. URN (urn:example:animal:ferret:nose) 거의 사용 X
+* scheme://[userinfo@]host[:port][/path][?query][#fragment]
+* https://www.google.com:443/search?q=hello&hl=ko
+
