@@ -20,3 +20,6 @@
 * UDP - TCP와 달리 애플리케이션 레벨에서 커스텀 가능
 * UDP - 3 way handshake X, 전달 보증 X, 순서 보장 X -> 단순, 빠름
 * UDP - IP에서 PORT, 체크섬만 추가
+
+## PORT
+* 같은 IP내 프로세스 구분 위함
