@@ -49,3 +49,7 @@
 ## 클라이언트 서버 구조
 * HTTP
 * 양쪽이 구분되어 짐으로써 독립적인 개발이 가능해짐
+
+## Stateful, Stateless
+* Stateless는 Scale Out이 가
+* Stateless는 데이터를 많이 보낸다.
