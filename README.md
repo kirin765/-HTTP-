@@ -57,3 +57,6 @@
 ## 비 연결성(connectionless)
 * HTTP 지속 연결(Persistent Connections)로 필요한 것 다 요청 후 연결 끊음
 * 한 개 요청하고 끊고 다시 연결하고 끊고 반복시 느림
+
+## HTTP 메시지
+* start-line | header | message body
