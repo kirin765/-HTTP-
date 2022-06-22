@@ -60,3 +60,9 @@
 
 ## HTTP 메시지
 * start-line | header | message body
+
+## HTTP API를 만들어보자
+* 회원 목록 조회 /read-member-list -> /members
+* 회원 조회 /read-member-by-id -> /members/{id}
+* 리소스(회원), 행위(조회, 등록...) 구분
+* 리소스는 URI로 구분
