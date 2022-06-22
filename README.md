@@ -51,5 +51,9 @@
 * 양쪽이 구분되어 짐으로써 독립적인 개발이 가능해짐
 
 ## Stateful, Stateless
-* Stateless는 Scale Out이 가
+* Stateless는 Scale Out이 가능
 * Stateless는 데이터를 많이 보낸다.
+
+## 비 연결성(connectionless)
+* HTTP 지속 연결(Persistent Connections)로 필요한 것 다 요청 후 연결 끊음
+* 한 개 요청하고 끊고 다시 연결하고 끊고 반복시 느림
