@@ -74,3 +74,8 @@
 ## HTTP 메서드 - PUT, PATCH, DELETE
 * PUT - 리소스를 완전히 갈아치움, 클라이언트가 명확히 리소스 지정
 * PATCH - 일정부분만 변경
+
+## HTTP 메서드의 속성
+* 안전 - 호출해도 리소스 변경X, GET, HEAD
+* 멱등 - 몇번 호출하든 같다. GET, PUT, DELETE
+* 캐시가능 - GET, HEAD, POST, PATCH 가능, 주로 GET, HEAD
