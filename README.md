@@ -79,3 +79,8 @@
 * 안전 - 호출해도 리소스 변경X, GET, HEAD
 * 멱등 - 몇번 호출하든 같다. GET, PUT, DELETE
 * 캐시가능 - GET, HEAD, POST, PATCH 가능, 주로 GET, HEAD
+
+## 클라이언트에서 서버로 데이터 전송
+* 정적 데이터 조회 - GET, 쿼리 파라미터
+* 동적 데이터 조회 - HTML FORM, POST, GET, multipart form, x-www... urlencoded
+* HTTP API 통신 - aplication/json
