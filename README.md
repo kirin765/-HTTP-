@@ -84,3 +84,9 @@
 * 정적 데이터 조회 - GET, 쿼리 파라미터
 * 동적 데이터 조회 - HTML FORM, POST, GET, multipart form, x-www... urlencoded
 * HTTP API 통신 - aplication/json
+
+## HTTP API 설계 예시
+* POST /members, 메시지 바디에 데이터 넣고 서버에 맡긴다. Collection방식
+* PUT /files/star.jpg, 클라이언트가 상세히 알고있다. Store방식
+* /new, /edit ... 컨트롤 URI - 동사가 표현, POST
+* 문서, 컬렉션, 스토어, 컨트롤러(컨트롤 URI)
