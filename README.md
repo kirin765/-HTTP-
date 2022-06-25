@@ -96,3 +96,8 @@
 
 ## 2xx - 성공
 * 200 OK, 201 Created, 202 Accepted, 204 No Content
+
+## 3xx - 리다이렉션1
+* 3xx 응답결과면 Location으로 이동
+* 영구 리다이렉션, 일시 리다이렉션, 특수 리다이렉션
+* 301 MovedPermanently GET 으로 재요청, 308 ...
