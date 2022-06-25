@@ -93,3 +93,6 @@
 
 ## HTTP 상태코드 소개
 * 클라이언트 요청에 대해 처리상황을 응답으로 알려주는 것
+
+## 2xx - 성공
+* 200 OK, 201 Created, 202 Accepted, 204 No Content
