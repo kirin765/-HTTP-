@@ -101,3 +101,8 @@
 * 3xx 응답결과면 Location으로 이동
 * 영구 리다이렉션, 일시 리다이렉션, 특수 리다이렉션
 * 301 MovedPermanently GET 으로 재요청, 308 ...
+
+## 3xx - 리다이렉션2
+* 302 리다이렉트시 GET을 바뀔수도, 307 요청메서드 본문 유지, 303 GET으로 변경
+* PRG - Post Redirect Get, 클라이언트 재요청시 POST로 다시 안 보내기 위함
+* 304 Not Modified, 캐시를 위함
