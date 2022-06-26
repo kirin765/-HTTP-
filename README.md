@@ -118,3 +118,6 @@
 ## HTTP 헤더 개요
 * HTTP 전송에 필요한 부가정보
 * 표현헤더 + 표현 데이터(메시지 본문)
+
+## 표현
+* Content-Type, Content-Encoding, Content-Language, Content-Length
