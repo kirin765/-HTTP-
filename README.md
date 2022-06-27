@@ -162,4 +162,8 @@
 ## 검증 헤더와 조건부 요청1
 * 첫 응답으로 Last-Modified: 2022년 6월 27일 ... 받음
 * 두번째 요청시, if-modified-since: 2022년 6월 27일 ... 전송
-* 서버에서 if-modified-since, Last-Modefied 비교후 304 Not Modified 전송 
+* 서버에서 if-modified-since, Last-Modefied 비교후 304 Not Modified 전송
+
+## 검증 헤더와 조건부 요청2
+* ETag: "abc"를 If-None-Match: "abc"에 담아 요청
+* ETag가 같으면 304 Not Modified 
