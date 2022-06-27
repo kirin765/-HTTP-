@@ -132,3 +132,9 @@
 * Content-Encoding: gzip ..., 압축 전송
 * Transfer-Encoding: chunked, 분할 전송
 * Range: bytes=1001-2000 ->, <- Content-Range: bytes 1001-2000 / 2000, 범위 전송
+
+## 일반 정보
+* referer: www.google.com, 이전 웹 주소
+* user-agent: Mozilla/5.0 ..., 클라이언트 앱 정보
+* server: Apache/2.2.22 ..., ORIGIN 서버 정보
+* Date: Tue, 15 Nov ... 응답에서 사용
