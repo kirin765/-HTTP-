@@ -143,3 +143,7 @@
 * Host: 요청한 호스트 정보(도메인)
 * Location: 응답에 리다이렉션 주소
 * Allow: 405응답에 허용가능 HTTP 메소드 표시
+
+## 인증
+* Authorization: basic xxxx, 클라이언트 인증정보 전달
+* WWW-Authenticate: Newauth realm="apps", type=1, ..., 인증 방법 정의
