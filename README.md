@@ -126,3 +126,9 @@
 * 클라이언트가 선호하는 표현 요청
 * Accept, ...-Charset, -Encoding, -Language
 * en;q=0.9, ko;q=0.3
+
+## 전송 방식
+* Content-Length: 3423, 단순 전송
+* Content-Encoding: gzip ..., 압축 전송
+* Transfer-Encoding: chunked, 분할 전송
+* Range: bytes=1001-2000 ->, <- Content-Range: bytes 1001-2000 / 2000, 범위 전송
