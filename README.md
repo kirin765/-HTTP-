@@ -138,3 +138,8 @@
 * user-agent: Mozilla/5.0 ..., 클라이언트 앱 정보
 * server: Apache/2.2.22 ..., ORIGIN 서버 정보
 * Date: Tue, 15 Nov ... 응답에서 사용
+
+## 특별한 정보
+* Host: 요청한 호스트 정보(도메인)
+* Location: 응답에 리다이렉션 주소
+* Allow: 405응답에 허용가능 HTTP 메소드 표시
