@@ -147,3 +147,11 @@
 ## 인증
 * Authorization: basic xxxx, 클라이언트 인증정보 전달
 * WWW-Authenticate: Newauth realm="apps", type=1, ..., 인증 방법 정의
+
+## 쿠키
+* Set-Cookie: user=홍.., 응답에서 쿠키 지정
+* Cookie: user=홍..., 요청에서 쿠키 전송
+* Set-Cookie: expires=Sat, 26-Dec..., Max-age=3600
+* domain=google.com, google.com 및 dev.google.com도 쿠키 접근
+* path=/home, 해당 및 하위경로 페이지만 쿠키 접근
+* secure가 있으면 https만 쿠키 전송 
