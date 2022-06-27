@@ -157,4 +157,9 @@
 * secure가 있으면 https만 쿠키 전송
 
 ## 캐시 기본 동작
-* cache-control: max-age=60 
+* cache-control: max-age=60
+
+## 검증 헤더와 조건부 요청1
+* 첫 응답으로 Last-Modified: 2022년 6월 27일 ... 받음
+* 두번째 요청시, if-modified-since: 2022년 6월 27일 ... 전송
+* 서버에서 if-modified-since, Last-Modefied 비교후 304 Not Modified 전송 
