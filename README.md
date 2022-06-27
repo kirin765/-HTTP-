@@ -166,4 +166,9 @@
 
 ## 검증 헤더와 조건부 요청2
 * ETag: "abc"를 If-None-Match: "abc"에 담아 요청
-* ETag가 같으면 304 Not Modified 
+* ETag가 같으면 304 Not Modified
+
+## 캐시와 조건부 요청 헤더
+* Cache-Control: max-age 캐시 유효시간
+* Cache-Control: no-cache ORIGIN 서버에 검증후 사용
+* Cache-Control: no-store 캐시 저장 금지 
