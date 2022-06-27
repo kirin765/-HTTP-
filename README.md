@@ -121,3 +121,8 @@
 
 ## 표현
 * Content-Type, Content-Encoding, Content-Language, Content-Length
+
+## 콘텐츠 협상
+* 클라이언트가 선호하는 표현 요청
+* Accept, ...-Charset, -Encoding, -Language
+* en;q=0.9, ko;q=0.3
