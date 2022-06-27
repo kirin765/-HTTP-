@@ -154,4 +154,7 @@
 * Set-Cookie: expires=Sat, 26-Dec..., Max-age=3600
 * domain=google.com, google.com 및 dev.google.com도 쿠키 접근
 * path=/home, 해당 및 하위경로 페이지만 쿠키 접근
-* secure가 있으면 https만 쿠키 전송 
+* secure가 있으면 https만 쿠키 전송
+
+## 캐시 기본 동작
+* cache-control: max-age=60 
