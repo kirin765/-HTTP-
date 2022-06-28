@@ -171,4 +171,9 @@
 ## 캐시와 조건부 요청 헤더
 * Cache-Control: max-age 캐시 유효시간
 * Cache-Control: no-cache ORIGIN 서버에 검증후 사용
-* Cache-Control: no-store 캐시 저장 금지 
+* Cache-Control: no-store 캐시 저장 금지
+
+## 프록시 캐시
+* Cache-Control: public 응답 프로식 서버 저장OK
+* Cache-Control: private 클라이언트가 저장
+* Cache-Control: s-maxage 프록시 캐시에만 적용하는 maxage 
