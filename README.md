@@ -176,4 +176,9 @@
 ## 프록시 캐시
 * Cache-Control: public 응답 프로식 서버 저장OK
 * Cache-Control: private 클라이언트가 저장
-* Cache-Control: s-maxage 프록시 캐시에만 적용하는 maxage 
+* Cache-Control: s-maxage 프록시 캐시에만 적용하는 maxage
+
+## 캐시 무효화
+* Cache-Control: no-cache, no-store, must-revalidate
+* Pragma: no-cache
+* 프록시 서버<-> ORIGIN 서버 통신 에러시 no-caches는 200전달과 달리 must-revalidate는 504전달 
